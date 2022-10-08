@@ -8,11 +8,11 @@ export const homeRoutes = [
         children: <Home />
     },
     {
-        path: "user_management",
+        path: "home/user_management",
         children: <UserManagement />
     },
     {
-        path: "setting",
+        path: "home/setting",
         children: <Setting />
     },
 ]
